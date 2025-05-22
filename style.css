@@ -2044,3 +2044,28 @@ section.modelo-de-negocio {
     /* Mantém a cor original se desejado */
   }
 }
+
+/* Banner Responsivo */
+.banner-responsivo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: var(--neutral-dark);
+  max-height: 100vh;
+}
+
+.banner-responsivo img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 768px) {
+  .banner-responsivo {
+    max-height: none;
+  }
+}
