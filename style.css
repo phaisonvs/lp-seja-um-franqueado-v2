@@ -2053,7 +2053,7 @@ section.modelo-de-negocio {
   align-items: center;
   overflow: hidden;
   background-color: var(--neutral-dark);
-  max-height: 100vh;
+  /*max-height: 100vh;*/
 }
 
 .banner-responsivo img {
